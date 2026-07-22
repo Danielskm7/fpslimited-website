@@ -81,15 +81,13 @@ align-items:center;
 
 }
 
-.logo{
+.logo img{
 
-font-size:30px;
-font-weight:bold;
-color:var(--gold);
-letter-spacing:1px;
+height:70px;
+width:auto;
+display:block;
 
 }
-
 .logo span{
 
 color:white;
