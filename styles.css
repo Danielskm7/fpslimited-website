@@ -30,61 +30,109 @@ body{
 
 /* HEADER */
 
+/*=============================
+HEADER
+=============================*/
+
 .header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    background:rgba(12,33,24,.96);
-    backdrop-filter:blur(12px);
-    border-bottom:2px solid #c8a45b;
-    z-index:9999;
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:5000;
+
+background:rgba(16,36,27,.96);
+
+backdrop-filter:blur(12px);
+
+border-bottom:1px solid #b99547;
+
 }
 
-.header .container{
+.header-inner{
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+max-width:1450px;
 
-    max-width:1400px;
-    margin:auto;
+margin:auto;
 
-    padding:18px 40px;
+padding:18px 45px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+}
+
+.logo{
+
+display:flex;
+
+align-items:center;
+
+text-decoration:none;
 
 }
 
 .logo img{
 
-    height:135px;
-    transition:.3s;
+height:78px;
+
+display:block;
 
 }
 
-nav ul{
+nav{
 
-    display:flex;
-    gap:55px;
-    list-style:none;
+display:flex;
+
+gap:55px;
 
 }
 
 nav a{
 
-    color:white;
-    text-decoration:none;
-    font-size:1rem;
-    font-weight:500;
-    transition:.3s;
+color:#fff;
+
+font-weight:500;
+
+text-decoration:none;
+
+transition:.3s;
 
 }
 
 nav a:hover{
 
-    color:#c8a45b;
+color:#c9a34b;
 
 }
-/* ====================================
+
+.header-btn{
+
+padding:16px 34px;
+
+border:2px solid #c9a34b;
+
+color:#c9a34b;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.header-btn:hover{
+
+background:#c9a34b;
+
+color:#183226;
+
+}/* ====================================
    HERO
 ==================================== */
 
