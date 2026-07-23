@@ -143,7 +143,7 @@ color:#183226;
     display:grid;
     grid-template-columns:45% 55%;
 
-    min-height:850px;
+    min-height:100vh;
 
 }
 
@@ -204,17 +204,17 @@ color:#183226;
 
     font-family:'Cormorant Garamond',serif;
 
-    font-size:5.2rem;
+    font-size:clamp (4.5rem,7vw,6.5rem);
 
     line-height:0.95;
 
-    margin-bottom:25px;
+    margin-bottom:30px;
 
 }
 
 .gold-line{
 
-    width:90px;
+    width:120px;
 
     height:3px;
 
