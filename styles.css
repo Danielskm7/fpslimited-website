@@ -254,3 +254,20 @@ height:58px;
     }
 
 }
+.header-button{
+
+    padding:14px 28px;
+    border:2px solid #c8a45b;
+    color:#c8a45b;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.header-button:hover{
+
+    background:#c8a45b;
+    color:#183226;
+
+}
