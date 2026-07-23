@@ -28,44 +28,62 @@ body{
 
 /* HEADER */
 
+/* HEADER */
+
 .header{
     position:fixed;
     top:0;
     left:0;
     width:100%;
-    background:rgba(18,45,34,.92);
-    backdrop-filter:blur(8px);
-    z-index:1000;
+    background:rgba(12,33,24,.96);
+    backdrop-filter:blur(12px);
+    border-bottom:2px solid #c8a45b;
+    z-index:9999;
 }
 
 .header .container{
+
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:18px 0;
+
+    max-width:1400px;
+    margin:auto;
+
+    padding:18px 40px;
+
 }
 
 .logo img{
-    height:72px;
+
+    height:110px;
+    transition:.3s;
+
 }
 
 nav ul{
+
     display:flex;
+    gap:55px;
     list-style:none;
-    gap:40px;
+
 }
 
 nav a{
-    color:#f7f4ed;
+
+    color:white;
     text-decoration:none;
+    font-size:1rem;
     font-weight:500;
     transition:.3s;
+
 }
 
 nav a:hover{
-    color:#c8a45b;
-}
 
+    color:#c8a45b;
+
+}
 /* HERO */
 
 .hero{
