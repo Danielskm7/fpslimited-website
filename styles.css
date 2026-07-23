@@ -364,3 +364,43 @@ color:#183226;
     color:#183226;
 
 }
+/*==============================
+SERVICES
+==============================*/
+
+.services{
+    background:#f8f5ef;
+    padding:120px 0;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:35px;
+    margin-top:60px;
+}
+
+.service-card{
+    background:#ffffff;
+    padding:40px;
+    border-radius:18px;
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+    transition:all .35s ease;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 30px 60px rgba(0,0,0,.12);
+}
+
+.service-card h3{
+    color:#10241b;
+    font-size:1.5rem;
+    margin-bottom:18px;
+}
+
+.service-card p{
+    color:#666;
+    line-height:1.8;
+    font-size:1rem;
+}
