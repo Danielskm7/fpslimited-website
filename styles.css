@@ -84,110 +84,143 @@ nav a:hover{
     color:#c8a45b;
 
 }
-/* HERO */
+/* ====================================
+   HERO
+==================================== */
 
 .hero{
-    height:100vh;
-    position:relative;
 
-    background:
-    linear-gradient(rgba(16,35,28,.55),
-    rgba(16,35,28,.55)),
-    url("https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80");
+    margin-top:110px;
 
-    background-size:cover;
-    background-position:center;
+    display:grid;
+    grid-template-columns:45% 55%;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+    min-height:780px;
 
-    color:white;
 }
 
-.hero-content{
-    width:90%;
-    max-width:850px;
+.hero-left{
+
+    background:#11281d;
+
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    padding:90px;
+
+}
+
+.hero-right{
+
+    overflow:hidden;
+
+}
+
+.hero-right img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+
 }
 
 .eyebrow{
+
+    color:#c8a45b;
+
     letter-spacing:4px;
-    color:#d7b56d;
-    margin-bottom:25px;
+
     font-size:.9rem;
+
+    margin-bottom:35px;
+
 }
 
 .hero h1{
+
     font-family:'Cormorant Garamond',serif;
-    font-size:4.6rem;
-    line-height:1.05;
+
+    font-size:5.2rem;
+
+    line-height:0.95;
+
     margin-bottom:30px;
+
+}
+
+.gold-line{
+
+    width:90px;
+
+    height:3px;
+
+    background:#c8a45b;
+
+    margin-bottom:35px;
+
 }
 
 .intro{
-    font-size:1.2rem;
-    line-height:1.8;
-    max-width:700px;
-    margin:auto auto 45px;
+
+    font-size:1.15rem;
+
+    line-height:1.9;
+
+    color:#d9ddd8;
+
+    margin-bottom:45px;
+
 }
 
 .hero-buttons{
+
     display:flex;
-    justify-content:center;
+
     gap:20px;
+
     flex-wrap:wrap;
+
 }
 
 .btn{
-    padding:16px 34px;
+
+    padding:18px 34px;
+
     text-decoration:none;
-    border-radius:40px;
-    transition:.3s;
+
     font-weight:600;
+
+    transition:.3s;
+
 }
 
 .btn-gold{
-    background:#c8a45b;
-    color:white;
-}
 
-.btn-gold:hover{
-    transform:translateY(-3px);
+    background:#c8a45b;
+
+    color:#11281d;
+
 }
 
 .btn-outline{
-    border:2px solid white;
-    color:white;
+
+    border:2px solid #c8a45b;
+
+    color:#c8a45b;
+
 }
 
 .btn-outline:hover{
-    background:white;
-    color:#183226;
-}
 
-/* MOBILE */
+    background:#c8a45b;
 
-@media(max-width:768px){
+    color:#11281d;
 
-nav{
-display:none;
-}
-
-.hero h1{
-font-size:2.8rem;
-}
-
-.intro{
-font-size:1rem;
-}
-
-.logo img{
-height:58px;
-}
-
-}
-/* ===========================
+}/* ===========================
    ABOUT SECTION
 =========================== */
 
