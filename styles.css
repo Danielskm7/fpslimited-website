@@ -551,3 +551,86 @@ TESTIMONIALS
     color:#10241b;
     font-weight:600;
 }
+/*==============================
+CONTACT
+==============================*/
+
+.contact{
+
+    padding:120px 0;
+
+    background:#10241b;
+
+    color:white;
+
+}
+
+.contact-wrapper{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    margin-top:60px;
+
+}
+
+.contact-details h3{
+
+    font-size:2rem;
+
+    margin-bottom:20px;
+
+}
+
+.contact-details p{
+
+    color:#d6d6d6;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+}
+
+.contact-item{
+
+    margin-bottom:18px;
+
+    font-size:1.05rem;
+
+}
+
+.contact-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.contact-form input,
+
+.contact-form textarea{
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:1rem;
+
+}
+
+.contact-form textarea{
+
+    height:180px;
+
+    resize:none;
+
+}
