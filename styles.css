@@ -511,3 +511,43 @@ WHY CHOOSE FPS
     color:#d7d7d7;
     line-height:1.8;
 }
+/*==============================
+TESTIMONIALS
+==============================*/
+
+.testimonials{
+    padding:120px 0;
+    background:#f8f5ef;
+}
+
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-top:60px;
+}
+
+.testimonial-card{
+    background:white;
+    padding:40px;
+    border-radius:18px;
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+}
+
+.testimonial-card p{
+    font-style:italic;
+    line-height:1.8;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.testimonial-card h4{
+    color:#d4af37;
+    margin-bottom:8px;
+    font-size:1.2rem;
+}
+
+.testimonial-card span{
+    color:#10241b;
+    font-weight:600;
+}
