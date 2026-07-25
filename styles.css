@@ -803,3 +803,158 @@ CONTACT
         max-width: 300px;
     }
 }
+
+
+/* ========================================
+   LUXURY SERVICES SECTION
+======================================== */
+
+.services {
+    background: #f3efe7;
+    padding: 120px 0 130px;
+}
+
+.services .container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.services-heading {
+    max-width: 750px;
+    margin-bottom: 75px;
+}
+
+.services-heading p {
+    color: #b7924a;
+    font-size: 0.78rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.services-heading h2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #183226;
+    font-size: 3.8rem;
+    font-weight: 400;
+    line-height: 1.05;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid rgba(24, 50, 38, 0.2);
+}
+
+.service-card {
+    padding: 50px 45px 35px;
+    border-right: 1px solid rgba(24, 50, 38, 0.2);
+    transition: all 0.4s ease;
+}
+
+.service-card:first-child {
+    padding-left: 0;
+}
+
+.service-card:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.service-number {
+    display: block;
+    color: #b7924a;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+}
+
+.service-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #183226;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.service-line {
+    width: 45px;
+    height: 1px;
+    background: #b7924a;
+    margin-bottom: 28px;
+    transition: width 0.4s ease;
+}
+
+.service-card p {
+    color: #59645e;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 32px;
+}
+
+.service-card a {
+    color: #183226;
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+}
+
+.service-card:hover .service-line {
+    width: 75px;
+}
+
+.service-card:hover a {
+    color: #b7924a;
+}
+
+/* SERVICES - MOBILE */
+
+@media (max-width: 800px) {
+
+    .services {
+        padding: 80px 0;
+    }
+
+    .services .container {
+        padding: 0 25px;
+    }
+
+    .services-heading {
+        margin-bottom: 45px;
+    }
+
+    .services-heading h2 {
+        font-size: 2.7rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card,
+    .service-card:first-child,
+    .service-card:last-child {
+        padding: 38px 0;
+        border-right: none;
+        border-bottom: 1px solid rgba(24, 50, 38, 0.2);
+    }
+
+    .service-card:last-child {
+        border-bottom: none;
+    }
+
+    .service-number {
+        margin-bottom: 20px;
+    }
+
+    .service-card h3 {
+        font-size: 2.2rem;
+    }
+}
