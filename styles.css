@@ -152,6 +152,13 @@ color:#183226;
 
 }
 
+.hero-content{
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    padding: 140px 90px;
+    color: white;
+}
 .eyebrow{
 
     color:#c8a45b;
