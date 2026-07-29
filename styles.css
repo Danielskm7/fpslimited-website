@@ -152,37 +152,6 @@ color:#183226;
 
 }
 
-.hero-left{
-
-    background:#11281d;
-
-    color:white;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-
-    padding:90px;
-
-}
-
-.hero-right {
-    position: relative;
-    overflow: hidden;
-    min-height: 850px;
-
-    background:
-        linear-gradient(
-            rgba(10, 30, 22, 0.12),
-            rgba(10, 30, 22, 0.12)
-        ),
-        url("fps-hero.png");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .eyebrow{
 
     color:#c8a45b;
