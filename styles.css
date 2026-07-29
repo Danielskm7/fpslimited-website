@@ -139,11 +139,16 @@ color:#183226;
 .hero{
 
     margin-top:110px;
-
-    display:grid;
-    grid-template-columns:45% 55%;
-
     min-height:100vh;
+    position:relative;
+
+    background:
+        linear-gradient(rgba(10,30,22,.55), rgba(10,30,22,.55)),
+        url("fps-hero.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 
 }
 
